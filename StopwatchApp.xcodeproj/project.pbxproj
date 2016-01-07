@@ -13,6 +13,10 @@
 		C36CF2CC1C3E345D00CF96E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C36CF2CA1C3E345D00CF96E3 /* Main.storyboard */; };
 		C36CF2CE1C3E345D00CF96E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C36CF2CD1C3E345D00CF96E3 /* Assets.xcassets */; };
 		C36CF2D11C3E345D00CF96E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C36CF2CF1C3E345D00CF96E3 /* LaunchScreen.storyboard */; };
+		C36CF2DB1C3E37E200CF96E3 /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = C36CF2DA1C3E37E200CF96E3 /* start.png */; };
+		C36CF2DD1C3E37F600CF96E3 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = C36CF2DC1C3E37F600CF96E3 /* stop.png */; };
+		C36CF2DF1C3E384100CF96E3 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = C36CF2DE1C3E384100CF96E3 /* default.png */; };
+		C36CF2E31C3E469B00CF96E3 /* flash.png in Resources */ = {isa = PBXBuildFile; fileRef = C36CF2E21C3E469B00CF96E3 /* flash.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		C36CF2CD1C3E345D00CF96E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C36CF2D01C3E345D00CF96E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C36CF2D21C3E345D00CF96E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C36CF2DA1C3E37E200CF96E3 /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
+		C36CF2DC1C3E37F600CF96E3 /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
+		C36CF2DE1C3E384100CF96E3 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
+		C36CF2E21C3E469B00CF96E3 /* flash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flash.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,10 @@
 		C36CF2C11C3E345D00CF96E3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C36CF2E21C3E469B00CF96E3 /* flash.png */,
+				C36CF2DE1C3E384100CF96E3 /* default.png */,
+				C36CF2DC1C3E37F600CF96E3 /* stop.png */,
+				C36CF2DA1C3E37E200CF96E3 /* start.png */,
 				C36CF2C21C3E345D00CF96E3 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -137,9 +149,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C36CF2E31C3E469B00CF96E3 /* flash.png in Resources */,
 				C36CF2D11C3E345D00CF96E3 /* LaunchScreen.storyboard in Resources */,
+				C36CF2DD1C3E37F600CF96E3 /* stop.png in Resources */,
 				C36CF2CE1C3E345D00CF96E3 /* Assets.xcassets in Resources */,
+				C36CF2DB1C3E37E200CF96E3 /* start.png in Resources */,
 				C36CF2CC1C3E345D00CF96E3 /* Main.storyboard in Resources */,
+				C36CF2DF1C3E384100CF96E3 /* default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
